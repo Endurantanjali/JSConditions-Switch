@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Switch Statement</title>
+</head>
+<body>
+    <h1>You are going to the Trip</h1>
+    <script>
+        var tour ='Paris';
+        switch(tour)
+        {
+        case'Newyork':
+        document.write("<b>You have Newyork tourist VISA</b>");
+        document.body.style.backgroundColor  = "lightyellow";
+        break;
+        case'Paris':
+        document.write("<b>You have Paris tourist VISA<br>Enjoy your Paris trip</b>");
+        document.body.style.backgroundColor  = "lightblue";
+        break;
+        case'Switzerland':
+        document.write("<b>You have Switzerland tourist VISA</b>");
+        document.body.style.backgroundColor  = "lightpink";
+        break;
+        default:
+        document.write("<b>Enjoy your trip</b>");
+        document.body.style.backgroundColor  = "lightred";
+        }
+        </script>    
+</body>
+</html>
